@@ -1,4 +1,4 @@
- <main>  
+ <main>
     <div class="container-fluid py-4">
       <div class="row">
         <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
@@ -98,7 +98,7 @@
                 <div class="col-lg-6">
                   <div class="d-flex flex-column h-100">
                     <p class="mb-1 pt-2 text-bold">Built by developers</p>
-                    <h5 class="font-weight-bolder">Soft UI Dashboard</h5>
+                    <h5 class="font-weight-bolder">Мечты Сбываются</h5>
                     <p class="mb-5">From colors, cards, typography to complex elements, you will find the full documentation.</p>
                     <a class="text-body text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
                       Read More

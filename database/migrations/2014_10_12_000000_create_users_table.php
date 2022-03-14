@@ -17,12 +17,12 @@ class CreateUsersTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->enum('sex', ['Мужской', 'Женский'])->nullable();
-            $table->string('phone')->nullable();
-            $table->string('location')->nullable();
-            $table->text('about')->nullable();
+            $table->timestamp('email_verified_at')->nullable();
+            $table->foreignId('phone_id')->nullable()
+                ->references('phone')->on('user_data')
+                ->onDelete('SET NULL');
+            $table->softDeletes();
             $table->rememberToken();
             $table->timestamps();
         });

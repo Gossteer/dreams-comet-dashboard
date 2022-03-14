@@ -56,8 +56,6 @@
                     onclick="navbarFixed(this)">
             </div>
             <hr class="horizontal dark my-sm-4">
-            <a class="btn bg-gradient-dark w-100" href="https://www.creative-tim.com/product/soft-ui-dashboard-laravel"
-                target="_blank">Free download</a>
             <a class="btn btn-outline-dark w-100"
                 href="/documentation/bootstrap/overview/soft-ui-dashboard/index.html" target="blank">View
                 documentation</a>
